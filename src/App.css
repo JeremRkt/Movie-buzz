@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+  border: 7px solid #000;
+  background: #eeebe7;
+  min-height: 900vh;
+  height: auto;
+  box-sizing: border-box;
+}
+
+#app-header {
+  display: flex;
+  border-bottom: 7px solid #000;
+  color: #000;
+  font-family: Courier;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  height: 40px;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+#links-container {
+  display: flex;
+  flex-direction: row;
+}
+
+#links-container a {
+  text-decoration: none;
+}
+
+#app-header p {
+  color: #000;
+  font-family: Courier;
+  font-size: 16px;
+  font-style: normal;
+  line-height: normal;
+  margin: 9px;
+
+}
+
+#image-header {
+  width: auto;
+  height: 39px;
+  flex-shrink: 0;
+  padding-left: 10px;
+  cursor: pointer;
+}

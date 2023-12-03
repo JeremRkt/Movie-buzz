@@ -1,0 +1,69 @@
+.reviews-container{
+    margin: auto;
+}
+
+.review-content{
+    margin-bottom: 20px;
+    background-color: #FFF;
+    border-radius: 10px;
+    text-align: left;
+    padding: 30px;
+}
+
+.review-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.review-content a{
+    color:blueviolet;
+    font-size: large;
+}
+
+.write-review-block{
+    margin:1%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#review-input-box{
+    margin-bottom:1%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    height: 200px;
+}
+
+#submit-review {
+    width: 100px;
+    height: 36px;
+    border-radius: 7px;
+    border: none;
+    background: #2E2E2E;
+    color: #FFF;
+    font-family: Courier;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: -110px;
+    margin-top: 3px;
+    line-height: normal;
+    cursor: pointer;
+}
+
+#review-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.expand-all-link {
+    margin-left: 1%;
+    color: #000000; /* Blue color, you can change this */
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }

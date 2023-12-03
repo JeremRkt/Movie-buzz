@@ -1,0 +1,124 @@
+.movie-details-container {
+  text-align: left;
+  width: 800px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.cast-list,
+.similar-movies-list {
+  display: flex;
+  justify-content: center; /* Center-align the flex items horizontally */
+  overflow-x: auto;
+  padding: 10px 0;
+}
+
+.cast-list {
+  display: flex;
+  overflow-x: auto;
+  padding: 10px 0;
+  justify-content: flex-start;
+}
+
+.cast-card {
+  flex: 0 0 auto;
+  margin-right: 10px;
+  width: 120px; 
+  text-align: center;
+}
+
+.cast-card img {
+  border-radius: 5%;
+  width: 100%;
+  height: auto;
+}
+
+.cast-card p {
+  margin: 5px 0;
+}
+
+.cast-name {
+  font-weight: bold;
+}
+
+.cast-character {
+  font-size: smaller;
+  color: gray;
+}
+
+.read-all-reviews a {
+  color: #017BFE;
+  text-decoration: none;
+}
+
+.read-all-reviews a:hover {
+  text-decoration: underline;
+}
+
+.similar-movies-list {
+  display: flex;
+  overflow-x: auto;
+  padding: 10px 0;
+  justify-content: flex-start;
+}
+
+.similar-movie-card {
+  flex: 0 0 auto;
+  margin-right: 10px;
+  text-align: center;
+  width: 160px;
+}
+
+.similar-movie-card img {
+  border-radius: 4px; 
+  width: 120px; 
+  height: auto; 
+  margin-bottom: 5px;
+}
+
+.similar-movie-card p {
+  font-weight: bold;
+}
+
+.movie-backdrop {
+  border-radius: 7px;
+  position: relative;
+  background-size: cover;
+  padding: 20px;
+  border: 7px solid #000;
+
+}
+
+.movie-backdrop::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 7px;
+  background: rgba(0, 0, 0, 0.5); 
+  z-index: 1;
+  border: 7px solid #000;
+}
+
+.movie-info {
+  position: relative;
+  z-index: 2; 
+  color: white;
+ 
+} 
+
+.movie-poster {
+  position: relative;
+  z-index: 3; 
+  float: left;
+}
+
+.movie-poster img {
+  border-radius: 5px; 
+  width: 200px;
+  height: 300px;
+  margin-right: 20px;
+}
+
